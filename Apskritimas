@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a;
+    cout << "Apskritimo ilgis" << endl;
+    cout << "Iveskite apskritimo spinduly" << endl;
+    cin >> a;
+    cout << "Apskritimo ilgis yra " << 2*(3.14+a);
+
+    return 0;
+}
