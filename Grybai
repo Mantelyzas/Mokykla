@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int b, Audrius, Arvydas, Vytautas, Gintaras;
+    cout << "Grybu apskaiciavimas" << endl;
+    cin >> b;
+    Audrius = b+2;
+    Arvydas = b-4;
+    Vytautas = b+2;
+    Gintaras = Arvydas*2;
+    cout << "Audrius Turejo " << Audrius endl;
+    cout << "Arvydas Turejo " << Arvydas endl;
+    cout << "Vytautas Turejo " << Vytautas endl;
+    cout << "Gintaras Turejo " << Gintaras endl;
+
+    return 0;
+}
